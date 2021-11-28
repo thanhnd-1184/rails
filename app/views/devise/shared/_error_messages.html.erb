@@ -1,0 +1,5 @@
+<% if resource.errors.any? %>
+  <div class="alert alert-danger" role="alert">
+    <h3 class="alert__message"><%= resource.errors.full_messages.first %></h3>
+  </div>
+<% end %>
